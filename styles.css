@@ -1,0 +1,150 @@
+/* Importando a fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+/* Reset básico */
+body, h1, h2, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e fundo */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Títulos */
+.title, h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+.subtitle, h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ffb347;
+}
+
+/* Botões */
+button {
+    background-color: #ff6f61;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3b3b;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Inputs e formulário */
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+ul li::before {
+    content: "•";
+    color: #ffb347;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Mensagem de resposta */
+.response-message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #4caf50;
+    text-align: center;
+}
+
+/* Centralizar os botões */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os botões */
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff6f61;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3b3b;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
